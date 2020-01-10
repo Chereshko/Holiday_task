@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@import reset.css;
+@import "../../../assets/css/reset.css";
 
 .first{
 	background-image: url(../images/banner.jpg);
