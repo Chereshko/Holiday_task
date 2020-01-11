@@ -10,10 +10,14 @@ but.onclick = ()=>{
 		nav.classList.remove('open');
 		nav.classList.add('closed');
 		isNavigationOpen = false;
+		but.classList.remove('on');
+		but.classList.add('off');
 	}
 	else{
-	nav.classList.remove('closed');
-	nav.classList.add('open');
-	isNavigationOpen = true;
+		nav.classList.remove('closed');
+		nav.classList.add('open');
+		isNavigationOpen = true;
+		but.classList.remove('off');
+		but.classList.add('on');
 	}
 }

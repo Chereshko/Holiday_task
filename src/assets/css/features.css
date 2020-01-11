@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.features{
+	
+}
+
+.container1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 400px;
+	align-content: center;
+	padding: 0 10%;
+	width:100%;
+	padding-top: 100px;
+	border: solid 2px black;
+	margin-bottom: 50px;
+}
+.feature{
+	
+	min-height: 350px;
+	display: inline-block;
+	flex: 400px;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	border: solid 2px pink;
+	position:relative;
+	align-content: center;
+	padding: 5%;
+}
+
+
+
+.feature-content{
+	
+	display: block;
+}
+.feature-content, .feature-content p, .feature-content h5{
+	padding: 0 15px;
+	margin-top:30px;
+	box-sizing: border-box;
+}
+
+.feature img{
+	height: 140px;
+	overflow: hidden;
+	padding: 0 15px;
+	position:relative;
+}
+
+.feature .icon{
+	color: #84545;
+	font-size: 60px;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+	align-content: center;
+	margin: 0 auto;
+	padding: 100px 100px;
+}
+
+@font-face {
+  font-family: "elegant-theme-line";
+  src: url("https://www.elegantthemes.com") ; 
+}
+
+.icon {
+  font-family: 'elegant-theme-line';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+.icon-tools:before{
+	content: "\e033";
+}
+
+@media (min-width: 0) and (max-width:768){
+	.container1{
+		flex-direction: column;
+	}
+	
+}

@@ -1,0 +1,43 @@
+// JSON Document
+//just structure
+[
+  {
+    "name": "Test",
+    "surname": "Testovich",
+    "position": "tester",
+    "info": "sl;dkf ;lksajd fl;saj f;lkaj f;ljasdplkfjlasjfplasjfdiohs dfihgsjidf isahgf iuahf",
+    "contacts": [
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf"
+    ]
+  },
+  {
+    "name": "Test",
+    "surname": "Testovich",
+    "position": "tester",
+    "info": "sl;dkf ;lksajd fl;saj f;lkaj f;ljasdplkfjlasjfplasjfdiohs dfihgsjidf isahgf iuahf",
+    "contacts": [
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf"
+    ]
+  },
+  {
+    "name": "Test",
+    "surname": "Testovich",
+    "position": "tester",
+    "info": "sl;dkf ;lksajd fl;saj f;lkaj f;ljasdplkfjlasjfplasjfdiohs dfihgsjidf isahgf iuahf",
+    "contacts": [
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf",
+      "https://facebook.com/id-opsdf"
+    ]
+  }
+]
