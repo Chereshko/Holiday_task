@@ -12,7 +12,7 @@
 }
 
 .work {
-	flex: 450px;
+	flex: 400px;
 	flex-wrap: wrap;
   -moz-box-shadow: 0 0 0 1px #fff;
   -webkit-box-shadow: 0 0 0 1px #fff;
@@ -111,9 +111,15 @@
     visibility: visible;
 }
 
-@media (min-width:1600px ){
+@media (min-width:1500px ){
 	.work{
 		flex:600px;
 	}
 	
+}
+
+@media (max-width:1084px){
+	.work{
+		min-height: 200px;
+	}
 }

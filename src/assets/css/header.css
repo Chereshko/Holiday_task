@@ -15,7 +15,7 @@
 }
 
 .header-content{
-	border:2px solid red;
+	
 }
 #header{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -198,13 +198,15 @@ transform: rotate(-45deg);
 	color: #fff;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+	padding:0 10%;}
 
 .banner-text p {
     color: #fff;
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
+	padding:0 10%;
     margin-bottom: 80px; }
 
 

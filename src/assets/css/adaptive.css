@@ -2,6 +2,15 @@
 /* CSS Document */
 
 @media screen and (max-width: 1024px) {
+	.banner-text {
+    padding-top: 30px; }
+    
+	.banner-text h1 {
+      font-size: 54px; }
+    
+	.banner-text p {
+      font-size: 20px; }
+	
   #header .header-content {
     width: 90%; }
 
@@ -63,7 +72,7 @@
 @media screen and (max-width: 768px) {
   
 	.banner-text {
-    padding-top: 30%; }
+    padding-top: 30px; }
     
 	.banner-text h1 {
       font-size: 42px; }
@@ -82,18 +91,27 @@
 
 @media screen and (max-width: 640px) {
   .banner-text {
-    padding-top: 35%; } }
+    padding-top: 35px; } }
 
 @media screen and (max-width: 480px) {
   .banner-text {
-    padding-top: 45%; }
+    padding-top: 20px; }
     
 	.banner-text h1 {
       font-size: 32px; } }
 
+.banner-text p{
+	margin-bottom: 40px;
+}
+}
+
 @media screen and (max-width: 320px) {
   .banner-text {
-    padding-top: 55%; }
+    padding-top: 20px; }
+	
+.banner-text p{
+	margin-bottom: 40px;
+}
 
   .testimonials blockquote {
     padding: 20px 5% 0; }

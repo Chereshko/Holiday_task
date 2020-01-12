@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.downloadContainer p{
+	color: #2d3033;
+    font-weight: 800;
+    text-transform: uppercase;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+
+.download h3{
+	margin-top: 0;
+	font-size: 28px;
+    color: #2d3033;
+    font-weight: 500;
+	margin-bottom: 0;
+}
+
+.download{
+	padding: 100px 0;
+}
+
+.downloadContainer{
+	margin:0 15%;
+	padding:0 15px;
+	text-align: center;
+	align-content: center;
+}
