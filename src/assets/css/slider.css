@@ -24,11 +24,18 @@
 	min-height:160px;
 }
 
+.textContainer1{
+	width: 100%;
+}
+
 @media (min-width:768px ){
 	.sliderContainer{
 		flex-direction: row;
 	}
 	.pictureContainer1{
+		width:50%;
+	}
+	.textContainer1{
 		width:50%;
 	}
 }

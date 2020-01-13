@@ -111,6 +111,39 @@
     visibility: visible;
 }
 
+.illustrationBackground{
+	position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0.9;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	display: block;
+	float: right;
+}
+
+.illustrationBackground .invisible{
+	visibility: hidden;
+}
+
+.illustrationBackground .visible{
+	visibility: visible;
+}
+
+.illustration{
+	
+}
+
+.closeButton{
+	
+}
+
+
+
 @media (min-width:1500px ){
 	.work{
 		flex:600px;
