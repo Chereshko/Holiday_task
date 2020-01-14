@@ -126,20 +126,63 @@
 	float: right;
 }
 
-.illustrationBackground .invisible{
+.illustrationBackground.invisible{
 	visibility: hidden;
 }
 
-.illustrationBackground .visible{
+.illustrationBackground.visible{
 	visibility: visible;
+	display: block;
+	float: right;
 }
 
 .illustration{
-	
+	position:absolute;
+	display: block;
+	width: 60%;
+	top: 20%;
+	left:20%;
+	border:10px solid gray;
+}
+
+.illustration img{
+	width:100%;
+	height:100%;
 }
 
 .closeButton{
-	
+	border-radius: 50%;
+	background-color: #e84545;
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    left:98%;
+    text-indent: 100%;
+    top: -22px;
+    white-space: nowrap;
+    width: 44px;
+    z-index: 99999;
+	padding: 0;
+   
+    transition: all 0.3s;
+}
+
+.closeButton div:before, .closeButton div:after{
+position: absolute;
+left: 20px;
+top: 2px;
+content: "";
+height: 40px;
+width: 4px;
+background-color: white;
+}
+
+.closeButton div:before {
+transform: rotate(45deg);
+}
+
+.closeButton div:after {
+transform: rotate(-45deg);
 }
 
 
